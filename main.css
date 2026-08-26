@@ -1,0 +1,71 @@
+/* Primary stylesheet for COMP001A Module 3 Assignment - Online Store
+   Author: TJ Miranda */
+body {
+    font-family: sans-serif;
+    padding: 1em;
+    max-width: 600px;
+}
+
+h1 {    
+    font-size: 180%;
+    color: #ff0000
+}
+
+h2 {
+    font-size: 140%;
+    
+}
+
+ul {
+    list-style-type: circle;
+}
+
+div img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-header {
+  display: flex;
+  align-items: center; 
+  gap: 10px;           
+  background-color: #fcf9f3; 
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.header-logo {
+  height: 140px;        
+  width: auto;         
+  object-fit: contain;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  margin: 0;
+  Color: #105e8e;
+  font-family: 'verdana', sans-serif;
+  font-weight: bold;
+  font-variant-ligatures: common-ligatures;
+}
+
+.product-image {
+  max-width: 30%; 
+  height: auto;   
+  display: block;  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+}
+
+main {
+  flex: 1; 
+}
