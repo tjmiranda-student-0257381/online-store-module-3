@@ -32,19 +32,22 @@ div img {
 
 a {
   text-decoration: none; /*para alisin ang underline sa mga links*/
+  text-decoration-color: #000000; /*para sa kulay ng underline sa mga links*/
+  color: #000000; /*para sa kulay ng text sa mga links*/
 }
 
 .site-header {
   display: flex;
   align-items: center; 
-  gap: 10px;           
-  background-color: #fcf9f3; 
+  gap: 25px;           
+  background-color: #bebebe; 
   color: #000000;
   padding: 10px 20px 30px 20px;
+  justify-content: center;
 }
 
 .header-logo {
-  height: 140px;        
+  height: 180px;        
   width: auto;         
   object-fit: contain;
   align-self: center;
@@ -53,7 +56,7 @@ a {
 .header-title {
   font-size: 2.5rem;
   margin: 0;
-  Color: #105e8e;
+  Color: #000000;
   font-family: 'verdana', sans-serif;
   font-weight: bold;
   font-variant-ligatures: common-ligatures;
